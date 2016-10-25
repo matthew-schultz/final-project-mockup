@@ -18,6 +18,11 @@ a:hover {
   margin: 35px;
 }
 
+img {
+  height: 100px;
+}
+
+
 /*div.ui.top.fixed.borderless.green.inverted.menu {*/
   /*margin-bottom: 35px;*/
 /*}*/
