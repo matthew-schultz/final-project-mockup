@@ -22,6 +22,41 @@ FlowRouter.route('/add', {
   },
 });
 
+FlowRouter.route('/users', {
+  name: 'Users_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Users_Page' });
+  },
+});
+
+FlowRouter.route('/plants', {
+  name: 'Plants_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Plants_Page' });
+  },
+});
+
+FlowRouter.route('/botanodex', {
+  name: 'Botanodex_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Botanodex_Page' });
+  },
+});
+
+FlowRouter.route('/plant-identifier', {
+  name: 'Plant_Identifier_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Plant_Identifier_Page' });
+  },
+});
+
+FlowRouter.route('/admin', {
+  name: 'Admin_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Admin_Page' });
+  },
+});
+
 FlowRouter.route('/stuff/:_id', {
   name: 'Edit_Stuff_Page',
   action() {

@@ -1,0 +1,17 @@
+<template name="Plant_Identifier_Page">
+  <div class="ui container">
+    <h1>Plant Identifier</h1>
+    <div class="ui selection dropdown">
+      <input type="hidden" name="leaves">
+      <i class="dropdown icon"></i>
+      <div class="default text">Leaves</div>
+      <div class="menu">
+        <div class="item" data-value="1">Big</div>
+        <div class="item" data-value="0">Small</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    $('.ui.dropdown').dropdown('show');
+  </script>
+</template>
