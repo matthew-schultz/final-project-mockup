@@ -24,3 +24,5 @@ import './plant-identifier.js';
 
 import './admin.html';
 import './admin.js';
+
+import './african-iris.html';

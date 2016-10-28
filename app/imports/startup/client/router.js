@@ -57,6 +57,13 @@ FlowRouter.route('/admin', {
   },
 });
 
+FlowRouter.route('/plants/african-iris', {
+  name: 'African_Iris_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'African_Iris_Page' });
+  },
+});
+
 FlowRouter.route('/stuff/:_id', {
   name: 'Edit_Stuff_Page',
   action() {
